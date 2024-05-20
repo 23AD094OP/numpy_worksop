@@ -3,5 +3,7 @@ num = int(input("Enter the first number"))
 num1 = int(input("Enter the second number"))
 if num>num1:
     print(num,"is maxmium number")
+elif num<num1:
+    print(num1 , " is maxmimum number")
 else:
-    print(num,"is maxmium number")    
+    exit(0) 
